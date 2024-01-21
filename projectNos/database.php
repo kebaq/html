@@ -1,0 +1,12 @@
+<?php
+
+$hostName = "10.0.2.5";
+$dbUser = "root";
+$dbPassword = "";
+$dbName = "login";
+$conn = mysqli_connect($hostName, $dbUser, $dbPassword, $dbName);
+if (!$conn) {
+    die("Something went wrong;");
+}
+
+?>
